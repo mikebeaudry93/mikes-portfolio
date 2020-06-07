@@ -1,5 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Monoton&family=Noto+Sans+KR:wght@100;300&display=swap');
+
+* {
+  margin: 0px;
+  font-family: 'Noto Sans KR';
+}
+
+.contact {
+  margin-right: 40px;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+link {
+  list-style: none;
+  margin: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+li:hover{
+  color: white;
+}
+
+link:hover{
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  /* float: end; */
+  height: 45px;
+  align-items: center;
+  padding-left:0px;
+  margin:0px;
+  width: 100vw;
+  justify-content: flex-end;
+  background-color: #FF0800;
+  position: fixed;
+}
+
+.name{
+  font-family: 'Monoton'
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FF0800;
+  height: 450px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 80px;
+
+}
+
+.scroll-to-about{
+  position: relative;
+  top: 110px;
+}
+
+.about-container-main {
+  display: flex;
+
+}
+
+.about-container-left {
+  width: 40%;
+}
+
+.about-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  height: 400px;
+  justify-content: center;
+}
+
+.about-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.about-me {
+  font-size : 12px;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.name {
+  color: white;
+}
+
+.positions {
+  color: white;
+  padding-bottom:20px;
+}
+
+.projects-title {
+  color: white;
+  margin-top: 40px;
+
+}
+
+.projects-container-main {
+  background-color: #191919;
+  height: 400px;
+  display: flex;
+  padding: 24px;
+  padding-left: 80px;
+}
+
 .App {
-  text-align: center;
+  text-align: start;
 }
 
 .App-logo {
