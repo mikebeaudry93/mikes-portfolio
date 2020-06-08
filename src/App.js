@@ -65,7 +65,7 @@ export class App extends Component {
           <img className="car-image" src={car} alt="car"/>
         </div>
         <div className="about-container">
-            <h3 className="about-title">About Me</h3>
+            <h1 className="about-title">About Me</h1>
             <p className="about-me"> Western Marketing grad with sales experience but transitioned into being Web Developer to follow my true passion. I love learning new things and I look forward to progressing the world through innovative technologies.</p>
         </div>
       </div>
