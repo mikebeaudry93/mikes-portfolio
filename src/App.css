@@ -48,7 +48,12 @@ link:hover{
 }
 
 .name{
-  font-family: 'Monoton'
+  font-family: 'Monoton';
+  font-size: 40px;
+}
+
+.positions {
+  font-size: 20px;
 }
 
 .name-container {
