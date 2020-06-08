@@ -4,6 +4,8 @@ import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
 import ttcimg from './assets/tic-tac-toe.png'
 import tasklist from './assets/tasklist.png'
+import expenseTracker from './assets/expense-tracker.png'
+import car from './assets/car.jpg'
 
 export class App extends Component {
 
@@ -58,14 +60,19 @@ export class App extends Component {
         {/* <div name="test1" className="scroll-to-about"></div> */}
       </div>
       <div className="about-container-main" name="test1">
-        <div className="about-container-left"></div>
+        <div className="about-container-left">
+          <div className="black-box"></div>
+          <img className="car-image" src={car} alt="car"/>
+        </div>
         <div className="about-container">
             <h3 className="about-title">About Me</h3>
             <p className="about-me"> Western Marketing grad with sales experience but transitioned into being Web Developer to follow my true passion. I love learning new things and I look forward to progressing the world through innovative technologies.</p>
         </div>
       </div>
       <div className="projects-container-main" name="test3">
-        <h3 className="projects-title">Projects</h3>
+        <div className="projects-title-container">
+        <h1 className="projects-title">Projects</h1>
+        </div>
         <div className="projects-container">
           <div className="box">
             <div className="imgbox">
@@ -86,6 +93,17 @@ export class App extends Component {
               <div className="caption">
                 <h5 className="caption-h">Task List</h5>
                 <p className="caption-p">Javascript/HTML/CSS</p>
+              </div>
+            </a>
+          </div>
+          <div className="box">
+            <div className="imgbox">
+              <img className="projects-img" src={expenseTracker} alt="p1"/>
+            </div>
+            <a href="https://distracted-borg-6e81db.netlify.app/">
+              <div className="caption">
+                <h5 className="caption-h">Expense Tracker</h5>
+                <p className="caption-p">React/Javascript/HTML/CSS</p>
               </div>
             </a>
           </div>
