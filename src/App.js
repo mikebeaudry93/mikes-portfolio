@@ -66,7 +66,7 @@ export class App extends Component {
         </div>
         <div className="about-container">
             <h1 className="about-title">About Me</h1>
-            <p className="about-me"> Western University Marketing grad with sales experience but transitioned into being a Web Developer through Brainstation to follow my true passion. I love learning new things and I look forward to progressing the world through innovative technologies.</p>
+            <p className="about-me"> Western University Marketing grad with sales experience but transitioned into being a Web Developer through Brainstation to follow my true passion. I love learning new things and I look forward to advancing the world through innovative technologies.</p>
         </div>
       </div>
       <div className="projects-container-main" name="test3">
