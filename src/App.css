@@ -81,13 +81,17 @@ link:hover{
   align-items: center;
 }
 
+.about-container-main {
+  height: 600px;
+}
+
 .about-container {
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 50%;
-  height: 400px;
+  height: 600px;
   justify-content: center;
 }
 
