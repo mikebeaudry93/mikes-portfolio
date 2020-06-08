@@ -108,6 +108,7 @@ link:hover{
 .projects-title {
   color: white;
   margin-top: 40px;
+  margin-right:50px;
 
 }
 
@@ -118,6 +119,125 @@ link:hover{
   padding: 24px;
   padding-left: 80px;
 }
+
+/* .projects-container {
+  margin: 24px;
+  display: flex;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 100px;
+} */
+
+.projects-container {
+  position: relative;
+  /* width: 500px; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  border-radius: 4px;
+}
+
+.projects-container .box {
+  margin:10px;
+  margin-top:80px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.projects-container .box:hover {
+  z-index: 1;
+  transform: scale(1.10);
+  box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.projects-container .box .imgbox:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  background: linear-gradient(180deg, black, grey);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.caption {
+  padding:0;
+}
+
+.projects-container .box:hover .imgbox:before {
+  opacity: 1;
+}
+
+.projects-container .box .imgbox {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
+
+.projects-container .box .imgbox img {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.projects-container .box .caption {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 15px;
+  padding-top:40px;
+  flex-direction: column;
+}
+
+.projects-container .box .caption .caption-h {
+  color: #fff;
+  transition: 0.5s;
+  /* text-transform: uppercase; */
+  margin-bottom:5px;
+  font-size:20px;
+  transform: translateY(200px);
+}
+
+.projects-container .box:hover .caption .caption-h {
+  transform: translateY(0);
+  transition-delay: 0.6s;
+}
+
+.projects-container .box .caption .caption-p {
+  color: #fff;
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 10px;
+}
+
+.projects-container .box:hover .caption .caption-p {
+  transform: translateY(0);
+  transition-delay: 0.8s;
+}
+
+/* .projects-img {
+  object-fit: cover;
+  border-radius: 2px;
+  height:100px;
+  width: 100px;
+  margin: 24px;
+} */
 
 .App {
   text-align: start;
@@ -157,3 +277,4 @@ link:hover{
     transform: rotate(360deg);
   }
 }
+
