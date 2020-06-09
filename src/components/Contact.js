@@ -17,7 +17,9 @@ export class Contact extends Component {
                         </div>
                     </div>
                     <div className="linkedin-box">
+                        <a href="https://www.linkedin.com/in/michael-beaudry/">
                         <img src={logo} alt="linkedin-logo" className="linkedin-logo"/>
+                        </a>
                     </div>
                 </div>
             </div>
