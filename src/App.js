@@ -53,7 +53,7 @@ export class App extends Component {
           <li className="home"><Link activeClass="active" className="test1 about" to="test2" spy={true} smooth={true} duration={1200}>Home</Link></li>
           <li className="about"><Link activeClass="active" className="test1 about" to="test1" spy={true} smooth={true} duration={1200}>About</Link></li>
           <li className="projects"><Link activeClass="active" className="test1 about" to="test3" spy={true} smooth={true} duration={1200}>Projects</Link></li>
-          <li className="projects"><Link activeClass="active" className="test1 about" to="test4" spy={true} smooth={true} duration={2500}>Contact</Link></li>
+          <li className="projects contact-nav"><Link activeClass="active" className="test1 about" to="test4" spy={true} smooth={true} duration={2500}>Contact</Link></li>
         </ul>
       </div>
       <div className="name-container">
