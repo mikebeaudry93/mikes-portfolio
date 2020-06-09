@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
+import {Contact} from './components/Contact'
+
 import ttcimg from './assets/tic-tac-toe.png'
 import tasklist from './assets/tasklist.png'
 import expenseTracker from './assets/expense-tracker.png'
@@ -51,7 +53,7 @@ export class App extends Component {
           <li className="home"><Link activeClass="active" className="test1 about" to="test2" spy={true} smooth={true} duration={1200}>Home</Link></li>
           <li className="about"><Link activeClass="active" className="test1 about" to="test1" spy={true} smooth={true} duration={1200}>About</Link></li>
           <li className="projects"><Link activeClass="active" className="test1 about" to="test3" spy={true} smooth={true} duration={1200}>Projects</Link></li>
-          <li className="contact">Contact</li>
+          <li className="projects"><Link activeClass="active" className="test1 about" to="test4" spy={true} smooth={true} duration={2500}>Contact</Link></li>
         </ul>
       </div>
       <div className="name-container">
@@ -69,46 +71,50 @@ export class App extends Component {
             <p className="about-me"> Western University Marketing grad with sales experience but transitioned into being a Web Developer through Brainstation to follow my true passion. I love learning new things and I look forward to advancing the world through innovative technologies.</p>
         </div>
       </div>
-      <div className="projects-container-main" name="test3">
-        <div className="projects-title-container">
-        <h1 className="projects-title">Projects</h1>
-        </div>
-        <div className="projects-container">
-          <div className="box">
-            <div className="imgbox">
-              <img className="projects-img" src={ttcimg}alt="p1"/>
-            </div>
-            <a href="https://youthful-beaver-86231a.netlify.com/">
-              <div className="caption">
-                <h5 className="caption-h">Classic Tic-Tac-Toe</h5>
-                <p className="caption-p">React/Javascript/HTML/SCSS</p>
-              </div>
-            </a>
+      <div className="projects-big-container">
+        <div className="projects-container-main" name="test3">
+          <div className="projects-title-container">
+          <h1 className="projects-title">Projects</h1>
           </div>
-          <div className="box">
-            <div className="imgbox">
-              <img className="projects-img" src={tasklist} alt="p1"/>
-            </div>
-            <a href="https://cranky-lamarr-f3677e.netlify.app/">
-              <div className="caption">
-                <h5 className="caption-h">Task List</h5>
-                <p className="caption-p">Javascript/HTML/CSS</p>
+          <div className="projects-container">
+            <div className="box">
+              <div className="imgbox">
+                <img className="projects-img" src={ttcimg}alt="p1"/>
               </div>
-            </a>
-          </div>
-          <div className="box">
-            <div className="imgbox">
-              <img className="projects-img" src={expenseTracker} alt="p1"/>
+              <a href="https://youthful-beaver-86231a.netlify.com/">
+                <div className="caption">
+                  <h5 className="caption-h">Classic Tic-Tac-Toe</h5>
+                  <p className="caption-p">React/Javascript/HTML/SCSS</p>
+                </div>
+              </a>
             </div>
-            <a href="https://distracted-borg-6e81db.netlify.app/">
-              <div className="caption">
-                <h5 className="caption-h">Expense Tracker</h5>
-                <p className="caption-p">React/Javascript/HTML/CSS</p>
+            <div className="box">
+              <div className="imgbox">
+                <img className="projects-img" src={tasklist} alt="p1"/>
               </div>
-            </a>
+              <a href="https://cranky-lamarr-f3677e.netlify.app/">
+                <div className="caption">
+                  <h5 className="caption-h">Task List</h5>
+                  <p className="caption-p">Javascript/HTML/CSS</p>
+                </div>
+              </a>
+            </div>
+            <div className="box">
+              <div className="imgbox">
+                <img className="projects-img" src={expenseTracker} alt="p1"/>
+              </div>
+              <a href="https://distracted-borg-6e81db.netlify.app/">
+                <div className="caption">
+                  <h5 className="caption-h">Expense Tracker</h5>
+                  <p className="caption-p">React/Javascript/HTML/CSS</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+      <Contact />
+      <div name="test4"></div>
     </div>
   );
   };
