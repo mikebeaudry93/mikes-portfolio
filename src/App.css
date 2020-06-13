@@ -163,9 +163,9 @@ link:hover{
 
 .projects-container-main {
   background-image: url(./assets/cool-sky.jpg);
-  background-size: 100vw;
+  background-size: 1200px;
   background-color: #95C8D8;
-  height: 550px;
+  height: 700px;
   /* width: 85vw; */
   display: flex;
   flex-direction: column;
@@ -198,7 +198,7 @@ link:hover{
   margin-top:30px;
   position: relative;
   width: 200px;
-  height: 200px;
+  height: 230px;
   overflow: hidden;
   transition: 0.5s;
 }

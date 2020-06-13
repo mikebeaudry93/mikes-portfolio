@@ -7,6 +7,7 @@ import {Contact} from './components/Contact'
 import ttcimg from './assets/tic-tac-toe.png'
 import tasklist from './assets/tasklist.png'
 import expenseTracker from './assets/expense-tracker.png'
+import quiz from './assets/js-quiz.png'
 import car from './assets/car.jpg'
 
 export class App extends Component {
@@ -107,6 +108,17 @@ export class App extends Component {
                 <div className="caption">
                   <h5 className="caption-h">Expense Tracker</h5>
                   <p className="caption-p">React/Javascript/HTML/CSS</p>
+                </div>
+              </a>
+            </div>
+            <div className="box">
+              <div className="imgbox">
+                <img className="projects-img" src={quiz} alt="p1"/>
+              </div>
+              <a href="https://compassionate-northcutt-2baef9.netlify.app/">
+                <div className="caption">
+                  <h5 className="caption-h">JS Quiz</h5>
+                  <p className="caption-p">Javascript/HTML/CSS</p>
                 </div>
               </a>
             </div>
