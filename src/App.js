@@ -7,7 +7,7 @@ import {Contact} from './components/Contact'
 import ttcimg from './assets/tic-tac-toe.png'
 import tasklist from './assets/tasklist.png'
 import expenseTracker from './assets/expense-tracker.png'
-import quiz from './assets/js-quiz.png'
+import quiz from './assets/quiz.png'
 import car from './assets/car.jpg'
 
 export class App extends Component {
