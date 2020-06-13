@@ -163,7 +163,7 @@ link:hover{
 
 .projects-container-main {
   background-image: url(./assets/cool-sky.jpg);
-  background-size: 1200px;
+  background-size: 100%;
   background-color: #95C8D8;
   height: 700px;
   /* width: 85vw; */
