@@ -72,7 +72,9 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="project-card">
+                        <a href="https://pensive-bell-4cd02e.netlify.app">
                         <img src={weatherapp} alt="project" className="projects-img"/>
+                        </a>
                         <h3 className="project-title">Weather App</h3>
                         <p className="project-description">Clean weather application. Uses a weather api to gather data from cities around the world. Has module to change the selected city. Selected city saves to local storage. </p>
                         <a href="https://github.com/mikebeaudry93/weather-app">
