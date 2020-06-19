@@ -1,14 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
 import {Contact} from './components/Contact'
 import {Projects} from './components/Projects'
 
-import ttcimg from './assets/tic-tac-toe.png'
-import tasklist from './assets/tasklist.png'
-import expenseTracker from './assets/expense-tracker.png'
-import quiz from './assets/quizpic.png'
 import car from './assets/car.jpg'
 
 export class App extends Component {
