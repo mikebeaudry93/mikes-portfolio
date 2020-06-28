@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
 import {Contact} from './components/Contact'

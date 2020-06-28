@@ -6,13 +6,28 @@
   font-family: 'Noto Sans KR';
 }
 
+@mixin phone {
+  @media (max-width: 767px) {
+      @content;
+  }
+}
+
 .contact {
-  padding-right: 40px
+  padding-right: 40px;
   /* margin-right: 0px; */
+  
+  @include phone {
+    padding: 0px;
+  }
+
 }
 
 .contact-nav {
   padding-right: 40px;
+
+  @include phone {
+    padding: 0px;
+  }
 }
 
 li {
@@ -50,11 +65,19 @@ link:hover{
   justify-content: flex-end;
   background-color: #FF0800;
   position: fixed;
+
+  @include phone {
+    justify-content: center;
+  }
 }
 
 .name{
   font-family: 'Monoton';
   font-size: 40px;
+
+  @include phone {
+    text-align: center;
+  }
 }
 
 .positions {
@@ -97,7 +120,11 @@ link:hover{
 
 .about-container-main {
   display: flex;
-  /* background-image: url('./assets/car.jpg'); */
+  
+  @include phone {
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
 
@@ -106,10 +133,19 @@ link:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include phone {
+    display: none;
+  }
+
 }
 
 .about-container-main {
   height: 600px;
+
+  @include phone {
+    height: 500px;
+  }
 }
 
 .about-container {
@@ -120,6 +156,12 @@ link:hover{
   width: 50%;
   height: 600px;
   justify-content: center;
+
+  @include phone {
+    padding: 20px;
+    align-items: center;
+    width: 87vw;
+  }
 }
 
 .about-title {
@@ -172,6 +214,10 @@ link:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @include phone {
+    margin-top: 0px;
+  }
 }
 
 .projects-main-title {
@@ -179,18 +225,30 @@ link:hover{
   margin-bottom: 90px;
   font-family: 'Pacifico';
   font-size: 46px;
+
+  @include phone {
+    margin-top: 60px;
+  }
 }
 
 .projects-icon-container {
   display: flex;
   justify-content: space-between;
-  width: 50vw;
+  min-width: 50vw;
   margin-bottom: 90px;
+
+  @include phone {
+    flex-wrap: wrap;
+  }
 }
 
 .icon {
   height: 70px;
   width: 70px;
+
+  @include phone {
+    padding: 10px 10px
+  }
 }
 
 .projects-container {
