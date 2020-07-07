@@ -41,8 +41,8 @@ function Projects() {
                     <img className="icon" src={sass} alt="sass"/>
                     <img className="icon" src={redux} alt="redux"/>
                 </div>
-                <div className="projects-container">
-                    <div data-aos='fade-right' className="project-card">
+                <div data-aos="fade-up" className="projects-container">
+                    <div className="project-card">
                         <a href="https://youthful-beaver-86231a.netlify.com/">
                             <img src={tictactoe} alt="project" className="projects-img"/>
                         </a>
@@ -52,7 +52,7 @@ function Projects() {
                             <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                    <div data-aos='zoom-in' className="project-card">
+                    <div className="project-card">
                         <a href="https://cranky-lamarr-f3677e.netlify.app/">
                             <img src={tasklist} alt="project" className="projects-img"/>
                         </a>
@@ -62,7 +62,7 @@ function Projects() {
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                    <div data-aos='fade-right' className="project-card">
+                    <div className="project-card">
                         <a href="https://distracted-borg-6e81db.netlify.app/">
                             <img src={expenseTracker} alt="project" className="projects-img"/>
                         </a>
@@ -72,7 +72,7 @@ function Projects() {
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                    <div data-aos='fade-left' className="project-card">
+                    <div  className="project-card">
                         <a href="https://compassionate-northcutt-2baef9.netlify.app/">
                             <img src={quiz} alt="project" className="projects-img"/>
                         </a>
@@ -82,7 +82,7 @@ function Projects() {
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                    <div data-aos='zoom-in' className="project-card">
+                    <div className="project-card">
                         <a href="https://pensive-bell-4cd02e.netlify.app">
                             <img src={weatherapp} alt="project" className="projects-img"/>
                         </a>
@@ -92,7 +92,7 @@ function Projects() {
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                     <div data-aos='fade-left' className="project-card">
+                     <div className="project-card">
                         <a href="https://modest-mirzakhani-b9fb3f.netlify.app/">
                             <img src={cocktail} alt="project" className="projects-img"/>
                         </a>

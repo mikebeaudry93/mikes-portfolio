@@ -14,6 +14,8 @@ import Projects from './components/projects/Projects';
 import facebook from '../src/assets/link-icons/facebook.svg';
 import linkedin from '../src/assets/link-icons/linkedin-black.svg';
 import github from '../src/assets/link-icons/github.svg';
+import logo from '../src/assets/m-icon.png';
+
 
 export class App extends Component {
 
@@ -56,9 +58,11 @@ export class App extends Component {
     <div className="App" name="test2">
       <div className="nav-container">
         <ul className="nav-bar">
+          <Link activeClass="active" className="test1 about" to="test2" spy={true} smooth={true} duration={1200}>
+            <img className='logo' src={logo} alt="logo"/>
+          </Link>
 
           <div className='nav-links-mid'>
-            <li className="home"><Link activeClass="active" className="test1 about" to="test2" spy={true} smooth={true} duration={1200}>Top</Link></li>
             <li className="about"><Link activeClass="active" className="test1 about" to="test1" spy={true} smooth={true} duration={1200}>About</Link></li>
             <li className="projects"><Link activeClass="active" className="test1 about" to="test3" spy={true} smooth={true} duration={1200}>Projects</Link></li>
             <li className="projects contact-nav"><Link activeClass="active" className="test1 about" to="test4" spy={true} smooth={true} duration={2500}>Contact</Link></li>
