@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import './About.scss'
+import './About.scss';
 
-import car from '../../assets/images/car.jpg'
+import profilepic from '../../assets/images/MikeProfile.png';
 
 function About() {
     
@@ -17,7 +17,7 @@ function About() {
             <div data-aos="fade-up" className='about-content'>
                 <div className="about-container-left">
                     <div className="black-box"></div>
-                    <img className="car-image" src={car} alt="car"/>
+                    <img className="car-image" src={profilepic} alt="car"/>
                 </div>
                 <div className="about-container">
                     <h1 className="about-title">About</h1>
