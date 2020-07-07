@@ -93,6 +93,9 @@ link {
   @include phone {
     justify-content: center;
     font-size: 15px;
+    justify-content: space-between;
+    padding-right: 12px;
+    padding-left: 12px;
 
   }
 
