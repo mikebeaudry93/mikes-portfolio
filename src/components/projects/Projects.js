@@ -42,52 +42,63 @@ function Projects() {
                 </div>
                 <div data-aos="fade-up" className="projects-container">
                     <div className="project-card">
-                        <a href="https://youthful-beaver-86231a.netlify.com/">
+                        <a className='project-link' href="https://youthful-beaver-86231a.netlify.com/">
                             <img src={tictactoe} alt="project" className="projects-img"/>
+                            <div className="card-content">
+                                <h3 className="project-title">Tic-Tac-Toe</h3>
+                                <p className="project-description">Classic Tic-Tac-Toe. Players alternate turns and when you line up three X's or O'x in row you'll have a winner!</p>
+                            </div>
                         </a>
-                        <h3 className="project-title">Tic-Tac-Toe</h3>
-                        <p className="project-description">Classic Tic-Tac-Toe. Players alternate turns and when you line up three X's or O'x in row you'll have a winner!</p>
-                        <a href="https://github.com/mikebeaudry93/mikes-tic-tac-toe">
+                        <a className='project-git-link' href="https://github.com/mikebeaudry93/mikes-tic-tac-toe">
                             <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
                     <div className="project-card">
-                        <a href="https://cranky-lamarr-f3677e.netlify.app/">
+                        <a className='project-link' href="https://cranky-lamarr-f3677e.netlify.app/">
                             <img src={tasklist} alt="project" className="projects-img"/>
+                            <div className="card-content">
+                                <h3 className="project-title">Task List</h3>
+                                <p className="project-description">Build your own task list that saves to local storage. Allows you to add and delete tasks, as well as filter tasks.</p>
+                            </div>
                         </a>
-                        <h3 className="project-title">Task List</h3>
-                        <p className="project-description">Build your own task list that saves to local storage. Allows you to add and delete tasks, as well as filter tasks.</p>
-                        <a href="https://github.com/mikebeaudry93/mikes-task-list">
+                        <a className='project-git-link' href="https://github.com/mikebeaudry93/mikes-task-list">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
                      <div className="project-card">
-                        <a href="https://modest-mirzakhani-b9fb3f.netlify.app/">
+                        <a className='project-link' href="https://modest-mirzakhani-b9fb3f.netlify.app/">
                             <img src={cocktail} alt="project" className="projects-img"/>
+                            <div className="card-content">
+                                <h3 className="project-title">A-list Cocktail Menu</h3>
+                                <p className="project-description">Makes use of The Cocktail DBs api. Fetches drink data and displays it. Has filter capabilites. Can add a drink to a favorites list then remove it. Uses Redux to store state and manipulate it. Made with React. Next steps: Add local storage. </p>
+                            </div>
                         </a>
-                        <h3 className="project-title">A-list Cocktail Menu</h3>
-                        <p className="project-description">Makes use of The Cocktail DBs api. Fetches drink data and displays it. Has filter capabilites. Can add a drink to a favorites list then remove it. Uses Redux to store state and manipulate it. Made with React. Next steps: Add local storage. </p>
-                        <a href="https://github.com/mikebeaudry93/cocktail-finder">
+                        <a className='project-git-link' href="https://github.com/mikebeaudry93/cocktail-finder">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
                     <div  className="project-card">
-                        <a href="https://compassionate-northcutt-2baef9.netlify.app/">
+                        <a className='project-link' href="https://compassionate-northcutt-2baef9.netlify.app/">
                             <img src={quiz} alt="project" className="projects-img"/>
+                            <div className="card-content">
+                                <h3 className="project-title">Quiz JS</h3>
+                                <p className="project-description">Interactive multiple choice quiz game. Can only continue when you select the right answer. Restarting the game randomizes the questions.</p>
+                            </div>
                         </a>
-                        <h3 className="project-title">Quiz JS</h3>
-                        <p className="project-description">Interactive multiple choice quiz game. Can only continue when you select the right answer. Restarting the game randomizes the questions.</p>
-                        <a href="https://github.com/mikebeaudry93/quiz-game">
+                        <a className='project-git-link' href="https://github.com/mikebeaudry93/quiz-game">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
                     <div className="project-card">
-                        <a href="https://pensive-bell-4cd02e.netlify.app">
+                        <a className='project-link' href="https://pensive-bell-4cd02e.netlify.app">
                             <img src={weatherapp} alt="project" className="projects-img"/>
+                       
+                            <div className="card-content">
+                                <h3 className="project-title">Weather App</h3>
+                                <p className="project-description">Clean weather application. Uses a weather api to gather data from cities around the world. Has module to change the selected city. Selected city saves to local storage. </p>
+                            </div>
                         </a>
-                        <h3 className="project-title">Weather App</h3>
-                        <p className="project-description">Clean weather application. Uses a weather api to gather data from cities around the world. Has module to change the selected city. Selected city saves to local storage. </p>
-                        <a href="https://github.com/mikebeaudry93/weather-app">
+                        <a className='project-git-link' href="https://github.com/mikebeaudry93/weather-app">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
