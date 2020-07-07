@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .contact-container{ 
     background-color: #505050;
     height: 220px;
@@ -29,6 +31,10 @@
         .footer-link-container {
             display:flex;
             height: 50%;
+
+            @include phone {
+                justify-content: center;
+            }
     
             .footer-link{
                 display: flex;
