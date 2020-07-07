@@ -7,7 +7,6 @@ import './Projects.scss';
 // Images 
 import tictactoe from '../../assets/images/tic-tac-toe.png';
 import tasklist from '../../assets/images/tasklist.png';
-import expenseTracker from '../../assets/images/expense-tracker.png';
 import quiz from '../../assets/images/quizpic.png';
 import weatherapp from '../../assets/images/weather-app1.png';
 import github from '../../assets/developer-icons/github2.jpg';
@@ -62,13 +61,13 @@ function Projects() {
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
-                    <div className="project-card">
-                        <a href="https://distracted-borg-6e81db.netlify.app/">
-                            <img src={expenseTracker} alt="project" className="projects-img"/>
+                     <div className="project-card">
+                        <a href="https://modest-mirzakhani-b9fb3f.netlify.app/">
+                            <img src={cocktail} alt="project" className="projects-img"/>
                         </a>
-                        <h3 className="project-title">Money Balance App</h3>
-                        <p className="project-description">Tracks your income and expenses. Values from input fields get passed to the components that need them and all fields update dynamically.</p>
-                        <a href="https://github.com/mikebeaudry93/expense-tracker-app">
+                        <h3 className="project-title">A-list Cocktail Menu</h3>
+                        <p className="project-description">Makes use of The Cocktail DBs api. Fetches drink data and displays it. Has filter capabilites. Can add a drink to a favorites list then remove it. Uses Redux to store state and manipulate it. Made with React. Next steps: Add local storage. </p>
+                        <a href="https://github.com/mikebeaudry93/cocktail-finder">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
@@ -89,16 +88,6 @@ function Projects() {
                         <h3 className="project-title">Weather App</h3>
                         <p className="project-description">Clean weather application. Uses a weather api to gather data from cities around the world. Has module to change the selected city. Selected city saves to local storage. </p>
                         <a href="https://github.com/mikebeaudry93/weather-app">
-                        <img src={github} alt="#" className="github-link"/>
-                        </a>
-                    </div>
-                     <div className="project-card">
-                        <a href="https://modest-mirzakhani-b9fb3f.netlify.app/">
-                            <img src={cocktail} alt="project" className="projects-img"/>
-                        </a>
-                        <h3 className="project-title">A-list Cocktail Menu</h3>
-                        <p className="project-description">Makes use of The Cocktail DBs api. Fetches drink data and displays it. Has filter capabilites. Can add a drink to a favorites list then remove it. Uses Redux to store state and manipulate it. Made with React. Next steps: Add local storage. </p>
-                        <a href="https://github.com/mikebeaudry93/cocktail-finder">
                         <img src={github} alt="#" className="github-link"/>
                         </a>
                     </div>
