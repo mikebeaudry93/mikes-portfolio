@@ -1,0 +1,91 @@
+@mixin phone {
+    @media (max-width: 767px) {
+        @content;
+    }
+  } 
+
+// import app.scss file
+
+.about-container-main {
+  display: none;
+  display: flex;
+  background-color: #f0e5d8;
+  
+  @include phone {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.about-content {
+    // display: none;
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.about-container-left {
+    background-color: #e2dfdf;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    @include phone {
+      display: none;
+    }
+  
+  }
+
+  .about-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    // height: 600px;
+    justify-content: center;
+    background-color: #505050;
+    color: white;
+  
+    @include phone {
+      padding: 20px;
+      align-items: center;
+      width: 87vw;
+    }
+  }
+
+  .about-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    // font-family: 'Alfa Slab One', cursive;
+  }
+
+  .black-box {
+    width: 200px;
+    height: 300px;
+    background-color: #505050;
+    margin-left: 60px;
+    position: relative;
+    bottom: 13%;
+  }
+
+  .car-image {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    z-index: 1;
+    position: relative;
+    right: 60px;
+    top: 40px;
+  
+  }
+
+  .about-me {
+    font-size : 16px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }

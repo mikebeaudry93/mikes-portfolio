@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&family=Notable&display=swap');
+
+$background: #b4d4d6;
+
+.slider{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $background;
+    z-index: -1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    // background-color: #b4d4d6;
+    // background: linear-gradient(#FF0800, #aee4db);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* padding-left: 80px; */
+    // position: absolute;
+    visibility: hidden;
+  }
+  
+
+  .image {
+    // opacity: 0.8;
+    // border-radius: 50px;
+    // padding: 100px;
+    margin: auto;
+    width: 80vw;
+    opacity: 0.6;
+    align-self: center;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .hero-content {
+      z-index: 3;
+      position: relative;
+      left: 10%;
+      top: 3%;
+      width: 60vw;
+      font-family: 'Alfa Slab One', cursive;
+
+      .hero-title {
+        // font-family: 'Patua One', cursive;
+        font-weight: 700;
+        font-size: 90px;
+        color: rgb(41, 41, 41);
+      }
+
+      .hero-description {
+          font-weight: 400;
+          font-size: 24px;
+        //   font-style: italic;
+        //   font-family: 'Patua One', cursive;
+        //   color: #806060;
+          color: rgb(41, 41, 41);
+      }
+
+      .d-name {
+        //   font-style: italic;
+        // font-weight: 200;
+        //   color: rgb(88, 88, 88);
+        // font-family: 'Alfa Slab One', cursive;
+          font-size: 25px;
+      }
+
+      .design {
+          font-weight: 400;
+          color: rgb(72, 94, 192);
+          font-family: 'Alfa Slab One', cursive;
+      }
+
+      .develop {
+            font-weight: 400;
+            // color: rgb(231, 128, 128);
+            color: rgb(72, 94, 192);
+            font-family: 'Alfa Slab One', cursive;
+      }
+  }
+
+  .image::after {
+      content: "";
+      background: black;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      opacity: 0.3;
+      left: 0;
+      top: 0;
+  }

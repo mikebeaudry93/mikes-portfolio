@@ -1,0 +1,93 @@
+@import '../../App.scss';
+
+.projects-main {
+    // border-top: 2px solid silver;
+    margin: 50px;
+    // margin-top: 100px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: rgb(255, 255, 255);
+  
+    @include phone {
+      margin-top: 0px;
+    }
+  }
+  
+  .projects-main-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 46px;
+    text-decoration: underline;
+  
+    @include phone {
+      margin-top: 60px;
+    }
+  }
+  
+  .projects-icon-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 50vw;
+    margin-bottom: 90px;
+  
+    @include phone {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .icon {
+    height: 60px;
+    width: 60px;
+  
+    @include phone {
+      padding: 10px 10px
+    }
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    flex-wrap: wrap;
+    font-weight: 200;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .project-card {
+    padding: 18px;
+    padding-top: 5px;
+    width: 270px;
+    height: 480px;
+    margin: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 20px;
+
+  }
+
+  .project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+
+  }
+  
+  .projects-img {
+    width: 305px;
+    height: 240px;
+    // position: relative;
+    object-fit: cover;
+    background-position: center;
+  }
+  
+  .github-link {
+    width: 80px;
+  }
