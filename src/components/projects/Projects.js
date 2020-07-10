@@ -31,7 +31,7 @@ function Projects() {
         return (
             <div className="projects-main">
                 <h1 data-aos='fade-right' className='projects-main-title'>Projects</h1>
-                <div data-aos='fade-left' className="projects-icon-container">
+                <div data-aos='zoom-in' className="projects-icon-container">
                     <img className="icon" src={html} alt="html"/>
                     <img className="icon" src={css} alt="css"/>
                     <img className="icon" src={javascript} alt="javascript"/>
