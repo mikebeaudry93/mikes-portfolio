@@ -117,17 +117,6 @@ export class App extends Component {
                   CONTACT
                 </Link>
               </li>
-              <Modal open={this.state.open} onClose={this.handleClose}>
-                <DialogContent
-                  className="dialog-content"
-                  style={{ border: "none" }}
-                >
-                  <ModalBody
-                    style={{ border: "none" }}
-                    handleClose={this.handleClose}
-                  />
-                </DialogContent>
-              </Modal>
             </div>
 
             <div className="soc-links">
@@ -147,16 +136,6 @@ export class App extends Component {
         <About />
         <div name="test3"></div>
         <Projects />
-        <div className="btn-container">
-          <Button
-            className="btn-contact"
-            type="button"
-            onClick={this.handleOpen}
-            size="large"
-          >
-            Lets chat :)
-          </Button>
-        </div>
         <Contact />
         <div name="test4"></div>
       </div>

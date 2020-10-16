@@ -4,8 +4,6 @@ import "aos/dist/aos.css";
 
 import "./About.scss";
 
-// import profilepic from "../../assets/images/MikeProfile.png";
-
 function About() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -18,12 +16,10 @@ function About() {
           <h1 className="about-title">About</h1>
           <p className="about-me">
             {" "}
-            Front-end developer with back-end capabilities and natural eye for
-            good design. After completing my BMOS degree at Western University I
-            then graduated from Brainstation in their Web Developement bootcamp.
-            Am a fast-learner, excellent communicator, and a strong passion to
-            build and create applications from the ground up. Looking forward to
-            advancing the world through innovation and my creativity. <br></br>
+            Front-end developer with back-end experience and a natural eye for
+            great design. I enjoy building projects from the ground up and love
+            using React to do it. If you'd like to work together on a project
+            I'd love to get in touch. <br></br>
             <br /> Tech skills: React.js, Redux, HTML, CSS, SCSS, Javascript,
             Node.js, Express. <br /> <br /> Phone number: 647-269-5512 <br />{" "}
             Email: michaelbeaudry93@gmail.com
