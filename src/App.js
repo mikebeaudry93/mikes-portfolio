@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import Modal from "@material-ui/core/Modal";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
 
 import "./App.scss";
 
@@ -12,7 +9,6 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import { Contact } from "./components/footer/Contact";
 import Projects from "./components/projects/Projects";
-import ModalBody from "./components/modal-body/ModalBody";
 
 // link-icons
 import facebook from "../src/assets/link-icons/facebook.svg";
