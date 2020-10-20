@@ -7,7 +7,6 @@ import "./Projects.scss";
 // Images
 import tictactoe from "../../assets/images/tic-tac-toe.png";
 import github from "../../assets/developer-icons/github2.jpg";
-import cocktail from "../../assets/images/cocktail.png";
 import musicStore from "../../assets/images/music-store-cover-2.png";
 
 // Icons
