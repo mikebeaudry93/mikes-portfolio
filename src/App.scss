@@ -148,14 +148,6 @@ link {
   top: 110px;
 }
 
-.about-container-main {
-  height: 600px;
-
-  @include phone {
-    height: 500px;
-  }
-}
-
 .positions {
   color: white;
   padding-bottom: 20px;

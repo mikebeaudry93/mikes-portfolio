@@ -16,11 +16,11 @@ function About() {
           <h1 className="about-title">About</h1>
           <p className="about-me">
             {" "}
-            Front-end developer with back-end experience and a natural eye for
-            great design. I enjoy building projects from the ground up and love
-            using React to do it. If you'd like to work together on a project
-            I'd love to get in touch. <br></br>
-            <br /> Tech skills: React.js, Redux, HTML, CSS, SCSS, Javascript,
+            Hello. My name is Mike Beaudry, nice to meet you! 
+            <br/><br/>I'm a Front-end developer with back-end experience and a natural eye for
+            clean design. I enjoy building projects from the ground up and love
+            using React to do it. I graduated from Brainstation for Web Development in 2019 and have had a passion for coding ever since. <br></br>
+            <br /> If you'd like to collaborate and work on a project together, I'd love to get in touch! <br/><br/> Tech skills: React.js, Redux, HTML, CSS, SCSS, Javascript,
             Node.js, Express. <br /> <br /> Phone number: 647-269-5512 <br />{" "}
             Email: michaelbeaudry93@gmail.com
           </p>
@@ -31,9 +31,3 @@ function About() {
 }
 
 export default About;
-
-// old left container
-// <div className="about-container-left">
-//           <div className="black-box"></div>
-//           <img className="car-image" src={profilepic} alt="car" />
-//         </div>

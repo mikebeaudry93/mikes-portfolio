@@ -42,6 +42,28 @@ function Projects() {
         <div className="project-card">
           <a
             className="project-link"
+            href="https://react-music-store-supreme.netlify.app/"
+          >
+            <img src={musicStore} alt="project" className="projects-img" />
+            <div className="card-content">
+              <h3 className="project-title">Music Supreme</h3>
+              <p className="project-description">
+                E-Commerce music store. Uses strapi for backend which stores
+                users info, products and orders (hosted on heroku so may take a
+                minute to boot up). Uses stripe for payments. Responsive for mobile. 
+              </p>
+            </div>
+          </a>
+          <a
+            className="project-git-link"
+            href="https://github.com/mikebeaudry93/cocktail-finder"
+          >
+            <img src={github} alt="#" className="github-link" />
+          </a>
+        </div>
+        <div className="project-card">
+          <a
+            className="project-link"
             href="https://youthful-beaver-86231a.netlify.com/"
           >
             <img src={tictactoe} alt="project" className="projects-img" />
@@ -60,52 +82,10 @@ function Projects() {
             <img src={github} alt="#" className="github-link" />
           </a>
         </div>
-        <div className="project-card">
-          <a
-            className="project-link"
-            href="https://react-music-store-supreme.netlify.app/"
-          >
-            <img src={musicStore} alt="project" className="projects-img" />
-            <div className="card-content">
-              <h3 className="project-title">Music Supreme</h3>
-              <p className="project-description">
-                E-Commerce music store. Uses strapi for backend which stores
-                users info, products and orders (hosted on heroku so may take a
-                minute to boot up). Uses stripe for payments.
-              </p>
-            </div>
-          </a>
-          <a
-            className="project-git-link"
-            href="https://github.com/mikebeaudry93/cocktail-finder"
-          >
-            <img src={github} alt="#" className="github-link" />
-          </a>
-        </div>
-        <div className="project-card">
-          <a
-            className="project-link"
-            href="https://modest-mirzakhani-b9fb3f.netlify.app/"
-          >
-            <img src={cocktail} alt="project" className="projects-img" />
-            <div className="card-content">
-              <h3 className="project-title">A-list Cocktail Menu</h3>
-              <p className="project-description">
-                Makes use of The Cocktail DBs api. Fetches drink data and
-                displays it. Uses Redux to store state and manipulate it.
-              </p>
-            </div>
-          </a>
-          <a
-            className="project-git-link"
-            href="https://github.com/mikebeaudry93/cocktail-finder"
-          >
-            <img src={github} alt="#" className="github-link" />
-          </a>
-        </div>
       </div>
     </div>
   );
 }
 
 export default Projects;
+

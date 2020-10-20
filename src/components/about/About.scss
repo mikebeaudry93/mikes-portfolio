@@ -17,6 +17,14 @@
   }
 }
 
+.about-container-main {
+  min-height: 800px;
+
+  @include phone {
+    min-height: 1250px;
+  }
+}
+
 .about-content {
   // display: none;
   width: 80vw;
@@ -64,7 +72,7 @@
 
 .black-box {
   width: 200px;
-  height: 300px;
+  // height: 300px;
   background-color: #505050;
   margin-left: 60px;
   position: relative;
