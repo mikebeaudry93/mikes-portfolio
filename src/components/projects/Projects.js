@@ -55,7 +55,7 @@ function Projects() {
           </a>
           <a
             className="project-git-link"
-            href="https://github.com/mikebeaudry93/cocktail-finder"
+            href="https://github.com/mikebeaudry93/music-store"
           >
             <img src={github} alt="#" className="github-link" />
           </a>
